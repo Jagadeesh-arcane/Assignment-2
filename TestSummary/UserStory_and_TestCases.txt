@@ -1,0 +1,32 @@
+USER STORY:
+
+As a user, I want to verify that the area calculator correctly computes the area of geometric shapes (circle, rectangle, and triangle) 
+under various conditions, ensuring accurate results and appropriate error handling, so that I can rely on the calculator for precise 
+calculations and robust behavior.
+
+
+TEST CASES:
+
+Circle Test 1:
+Scenario: Calculate the area of a circle with a radius of 2.
+Expected Result: The calculated area should be 12 square units.
+
+Circle Test 2:
+Scenario: Calculate the area of a circle with a negative radius (-2).
+Expected Result: The calculated area should be 0, as a negative radius is not valid.
+
+Rectangle Test 1:
+Scenario: Calculate the area of a rectangle with length 4 units and width 8 units.
+Expected Result: The calculated area should be 32 square units.
+
+Rectangle Test 2:
+Scenario: Calculate the area of a rectangle with length 0 units and width 3 units.
+Expected Result: The calculated area should be 0, as the length or width cannot be zero.
+
+Triangle Test 1:
+Scenario: Calculate the area of a triangle with a base of 6 units and height of 2 units.
+Expected Result: The calculated area should be 6 square units.
+
+Triangle Test 2:
+Scenario: Calculate the area of a triangle with a base of 7 units and height of 0 units.
+Expected Result: The calculated area should be 0, as the height cannot be zero in a triangle.
